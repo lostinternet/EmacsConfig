@@ -43,30 +43,50 @@
 ;;----------------------------------------------------------------------------
 ;;facade
 (require 'init-facade)
+(load-theme 'deeper-blue)
+
+(require 'init-ivy)
+
+;;Chinese input mothed
+(require 'init-eim)
+
 
 ;;edit
-(require 'init-tabbar)
+;;(require 'init-tabbar)
 (require 'init-yasnippet)
-(require 'init-commany)
+(require 'init-company)
 (require 'init-flycheck)
 (require 'init-xcscope)
-(require 'init-origami)
+;;(require 'init-origami)
 (require 'init-semantic)
 ;;
-(require 'init-windows)
-(require 'init-sr-speedbar)
-(require 'init-gnus)
-(require 'init-ivy)
+;;(require 'init-windows)
+;;(require 'init-sr-speedbar)
+
+
+
 ;;diff
 (require 'init-ediff)
 ;;build
-(require 'init-cmake)
+;;(require 'init-cmake)
 ;;debug
-(require 'init-cdb-gud)
+;;(require 'init-cdb-gud)
+;;(require 'init-gnus-two)
+
+
+
+;;org mode
+;;(require 'init-orgmode)
+
+;;(require 'init-)
+;;(add-to-list 'load-path "D:\\software\\emacs\\.emacs.d\\site-lisp")
+;;(require 'org-tree-slide)
 
 ;;test area
 
 
+
+;;(setq org-agenda-files (list "f:\\file\\workSchedule.org" ))
 
 ;;----------------------------------------------------------------------------
 ;; Variables configured via the interactive 'customize' interface
